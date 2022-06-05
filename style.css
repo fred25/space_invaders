@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: monospace;
+    background-color: black;
+}
+
+canvas{
+    border: solid lime;
+}
+
+#restartBtn{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: lime;
+    border: solid lime;
+    padding: 5px;
+    transition: .3s;
+}
+
+#restartBtn:hover{
+    transform: scale(105%);
+}
+
+#scoreText{
+    font-size: 70px;
+    color: lime;
+}
+
+h1{
+    font-size: 50px;
+    color: lime;
+}
+
+#spritesheet{
+    visibility: hidden;
+}
